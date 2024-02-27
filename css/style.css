@@ -1,0 +1,74 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    text-align: center;
+    align-items: center;
+    background-color: black;
+    color: aliceblue;
+    padding: 20px;
+}
+header ul{
+    list-style-type: none;
+
+}
+header ul li{
+    display: inline;
+    margin: 20px 20px 20px 20px;
+    
+}
+header ul li a{
+    text-decoration: none;
+    color: aliceblue;
+}
+header ul li a:hover{
+    background-color: rgb(86, 189, 230);
+    padding: 10px;
+}
+section{
+    padding: 40px;
+    text-align: center;
+}
+.galeria{
+    display: -moz-grid-line;
+    grid-template-columns:repeat(autofill, maxmin(150px 1fr)); 
+    grid-gap: 20px;
+}
+.galeria img{
+    max-width: 100%;
+    height: auto;
+}
+label{
+    display: block;
+    margin: 10px;
+}
+input[type="text"],input[type="email"],
+textarea{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+input[type="submit"]{
+    background-color: rgb(48, 48, 48);
+    color: aliceblue;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+input[type="submit"]:hover{
+    background-color: gray;
+}
+footer{
+    padding: 20px;
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+
+    position: sticky;
+    bottom: 0;
+    width: 100%;  
+}
